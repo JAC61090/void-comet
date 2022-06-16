@@ -1,8 +1,8 @@
 {
+  "homepage": "https://jac61090.github.io/void-comet/",
   "name": "porto",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jac61090.github.io/void-comet/",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@fortawesome/free-brands-svg-icons": "^6.1.1",
