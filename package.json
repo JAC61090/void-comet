@@ -2,6 +2,7 @@
   "name": "porto",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jac61090.github.io/void-comet/",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@fortawesome/free-brands-svg-icons": "^6.1.1",
@@ -11,6 +12,7 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
+    "gh-pages": "^4.0.0",
     "gsap-trial": "^3.10.4",
     "loaders.css": "^0.1.2",
     "mdb-react-ui-kit": "^4.0.0",
@@ -23,6 +25,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
