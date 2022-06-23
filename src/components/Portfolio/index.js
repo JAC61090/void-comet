@@ -44,7 +44,7 @@ const Portfolio = () => {
         <div className="port main-container ">
         <MDBContainer className="port-container ">
       <MDBRow className="row-container">
-        <MDBCol size='lg' className='col-container ' >
+        <MDBCol size='lg' className='col-container '  >
           One of three columns
         </MDBCol>
         <MDBCol size='lg' className='col-container'>

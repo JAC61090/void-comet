@@ -110,6 +110,13 @@ h2 {
     h2{
         color: #ffd700;
         font-size: 35px;
+        &:hover {
+            background: #ffd700;
+            color: #333;
+            animation: ease-out .5s infinite;
+    
+        }
+
         
     }
     

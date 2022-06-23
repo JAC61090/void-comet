@@ -91,7 +91,7 @@ return (
             </div>
             <div className="foodie-container d-flex flex-row-reverse p-3">
                 <div className="hungry-container">
-                    <h2>Hungry?!?!</h2>
+                    {/* <h2>Hungry?!?!</h2> */}
                     {/* <button >Hungry?!?!</button> */}
                 </div>
 
