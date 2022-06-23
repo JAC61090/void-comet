@@ -4,7 +4,7 @@ import corj from '../../assets/images/corj.png'
 // import mockIcon from '../../assets/images/mockIcon.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
-  faDragon,
+  // faDragon,
   faRocket,
   faHome,
   faPerson,
@@ -36,14 +36,14 @@ const Sidebar = () => {
         >
           <FontAwesomeIcon icon={faRocket} color="#4d4d4e" />
         </NavLink>
-        <NavLink
+        {/* <NavLink
           exact="true"
           activeclassname="active"
           className="portfolio-link"
           to="/portfolio"
         >
           <FontAwesomeIcon icon={faDragon} color="#4d4d4e" />
-        </NavLink>
+        </NavLink> */}
       </nav>
       <ul>
         <li>

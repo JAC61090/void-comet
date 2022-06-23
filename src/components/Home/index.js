@@ -83,10 +83,12 @@ return (
                 idx={27} />
                 </div>
                 {/* </h1> */}
+                
                 <h2 className="tiny-text"> Full-Stack Web Development / Front-End Engineer 
                 <Link to="/contact" className="flat-button">CONTACT ME</Link>
                     
                 </h2>
+                
                 </div>
             </div>
             <div className="foodie-container d-flex flex-row-reverse p-3">
