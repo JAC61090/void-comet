@@ -1,7 +1,9 @@
 .contact-form {
+
   
     width: 100%;
     margin-top: 13rem;
+    
     
   
     ul {
@@ -86,7 +88,7 @@
 
 .contact-card{
   p{
-    padding-bottom: 32rem;
+    padding-bottom: 13rem;
     padding-left: 15.5rem;
     padding-top: 18rem;
     box-sizing: border-box;
@@ -98,6 +100,7 @@
   h2 {
     font-size: 15px;
     color: #ffd700;
+    // padding-bottom: 12rem;
   }
 
   
@@ -105,9 +108,17 @@
 
 .email-info, h2 {
   padding-left: 50rem;
-  position: absolute;
-  padding-top: -80rem;
+  // position: absolute;
+  padding-bottom: -40rem;
   
+}
+
+.git-info, h4{
+  padding-left: 30rem;
+  // padding-bottom: 40rem;
+  color: #ffd700;
+  
+
 }
 .contact-info, email-info{
   padding-left: 50rem;
@@ -115,10 +126,20 @@
 
 }
 
-.name-info, h2{
+.name-info, h2 {
+  // color: #ffd700;
+  position: absolute;
+  color: antiquewhite;
+  // padding-top: 10rem;
+  padding-left: 4rem;
+  
+
+}
+
+h2{
   position: relative;
   padding-left: 10rem;
   color: #ffd700;
-  // padding-bottom: -15rem;
+  padding-bottom: -15rem;
 }
- 
+

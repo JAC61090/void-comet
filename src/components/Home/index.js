@@ -1,7 +1,10 @@
 import { useEffect, useState } from "react";
+import Loader from "react-loaders";
 import { Link } from "react-router-dom"
 import AnimatedLetters from "../AnimatedLetters";
 import Sidebar from "../Sidebar";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faMicrochip } from '@fortawesome/free-solid-svg-icons'
 // import mockIcon from "../../assets/images/mockIcon.png"
 import './index.scss';
 
@@ -25,7 +28,7 @@ const Home = () => {
     //     }, 4000) 
     // }, [])
 return (
-
+    <>
 
         <div className="container home-page" >
             <Sidebar /> 
@@ -83,6 +86,12 @@ return (
                 idx={27} />
                 </div>
                 {/* </h1> */}
+                <div className='git-home'>
+              <h3>
+                <FontAwesomeIcon icon={faMicrochip}/> Online Portfolio <Link to="https://github.com/JAC61090">GitHub Repository</Link>  </h3>
+             
+
+            </div>
                 
                 <h2 className="tiny-text"> Full-Stack Web Development / Front-End Engineer 
                 <Link to="/contact" className="flat-button">CONTACT ME</Link>
@@ -99,6 +108,8 @@ return (
 
             </div>
         </div>
+                <Loader type="pacman"/>
+        </>
         
     )
 }

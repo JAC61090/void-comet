@@ -67,7 +67,7 @@ h1, .intro-zone, .text-zone {
 
 h2 {
     color: #8d8d8d;
-    margin-top: -8rem;
+    // margin-top: -8rem;
     font-weight: 400;
     font-size: 11px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -121,4 +121,12 @@ h2 {
     }
     
     
+}
+
+.git-home, h3{
+    position: absolute;
+    inline-size: max-content;
+    color: #ffd700;
+   
+
 }
